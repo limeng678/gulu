@@ -47,10 +47,10 @@
     &:active {background-color: var(--button-active-bg);}
     &:focus {outline: none;}
     > .content{order: 2;}
-    > .icon{order: 1;margin-left:0;margin-right: .1em;}
+    > .icon { order: 1; margin-right: .1em; }
     &.icon-right{
       > .content{order: 1;}
-      > .icon{order: 2;margin-right:0;margin-left: .1em;}
+      > .icon { order: 2; margin-right: 0; margin-left: .1em;}
     }
     .loading{
       animation: spin 2s infinite linear;
