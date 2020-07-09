@@ -12,7 +12,9 @@
     name:'GuluTabsHead',
     inject: ['eventBus'],
     created () {
-
+       this.eventBus.$on('update:selected',(item,vm)=>{
+         console.log(vm.$el)
+       })
     }
   }
 </script>
@@ -30,6 +32,7 @@
       position:absolute;
       bottom:0;
       border-bottom: 1px solid $blue;
+      width: 100px;
     }
     > .actions-wrapper {
       margin-left: auto;
