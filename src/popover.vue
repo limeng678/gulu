@@ -32,15 +32,15 @@
     data () {
       return {visible: false}
     },
-    mounted() {
-      if (this.trigger==='click'){
+    mounted () {
+      if (this.trigger === 'click') {
         this.$refs.popover.addEventListener('click', this.onClick)
-      }else{
+      } else {
         this.$refs.popover.addEventListener('mouseenter', this.open)
         this.$refs.popover.addEventListener('mouseleave', this.close)
       }
     },
-    destroyed() {
+    destroyed () {
       if (this.trigger === 'click') {
         this.$refs.popover.removeEventListener('click', this.onClick)
       } else {

@@ -7,7 +7,7 @@
     <g-input value="normal"></g-input>
     <g-input value="disabled" disabled></g-input>
     <g-input value="readonly" readonly></g-input>
-
+    <g-input value="ERROR" error="Error message"></g-input>
     <p>
       <strong>代码</strong>
     </p>
@@ -25,6 +25,7 @@
           <g-input value="normal"></g-input>
           <g-input value="disabled" disabled></g-input>
           <g-input value="readonly" readonly></g-input>
+          <g-input value="ERROR" error="Error message"></g-input>
       `.replace(/^ {8}/gm, '').trim()
       }
     }
