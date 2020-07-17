@@ -1,8 +1,8 @@
 ---
-title: Toast
+title: Toast 提示层
 ---
 
-# Toast
+# 提示层
 
 <ClientOnly>
   <toast-demo-1></toast-demo-1>
