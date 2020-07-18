@@ -5,7 +5,6 @@ module.exports = {
   themeConfig: {
     nav: [
       {text: '主页', link: '/'},
-      {text: 'Github', link: 'https://github.com/limeng678/'},
       {text: '欢迎star', link: 'https://github.com/limeng678/Lemon'},
     ],
     sidebar: [
