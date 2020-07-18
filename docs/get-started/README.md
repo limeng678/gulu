@@ -6,7 +6,7 @@ title: 快速上手
 
 引入Lemon UI
 ```
-    import {Button} from 'lemon'
+    import {Button} from 'lemon1'
     import Vue from 'vue'
     new Vue({
       el: '#app',
