@@ -1,5 +1,5 @@
 module.exports = {
-  base:'/lemon/',
+  base:'/Lemon/',
   title: 'Lemon UI',
   description: '一个好用的UI框架',
   themeConfig: {
